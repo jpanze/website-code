@@ -1,0 +1,241 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+        display: flex;
+        align-items:center ;
+        padding: 20px;
+    }
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}a{
+    text-decoration: none;
+    color: #000000;
+}
+p{
+    color: #000000;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 50px 0;  
+}
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.btn{
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    background: #8a4e4e;
+}
+
+.header{
+    background: radial-gradient(#fff,#ffd6d6);
+}
+.header .row{
+    margin-top: 70px;
+}
+.categories{
+    margin: 70px 0;
+}
+.col-3{
+    flex-basis: auto;
+    min-width: auto;
+    margin-bottom: auto;
+}
+.col-3 img{
+    width: auto;
+}
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+}
+.col-4 img{
+    width: 100%;
+    
+
+}
+
+/*----------footer----------*/
+
+.footer{
+    background: rgb(59, 58, 58);
+    color: #ffffff;
+    font-size: 14px;
+    padding: 60px 0 20px;
+  }
+  .footer p{
+    color: #fffbfb;
+  }
+  .footer h3{
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+    min-width: 250px;
+    margin-bottom: 20px;
+  
+  }
+  .footer-col-1{
+    flex-basis: 30%;
+  }
+  .footer-col-2{
+    flex: 1;
+    text-align: center;
+  }
+  .footer-col-2 img{
+    width: 180px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-col-3, .footer-col-4{
+    flex-basis: 12%;
+    text-align:center;
+  }
+  ul{
+    list-style-type: none;
+  }
+  
+  .app-logo{
+    margin-top: 20px;
+  }
+  
+  .app-logo img{
+    width: 140px;
+  }
+  
+  .footer hr{
+    border: none;
+    background: #ffffff;
+    height: 1px;
+    margin: 20px 0;
+  }
+  .Copyright{
+    text-align: center;
+  }
+  
+  .menu-icon{
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+    
+  }
+  /*-----about us----*/
+#Aboutus-header{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+  
+  
+  }
+  
+  #Aboutus-p1{
+    text-align: center;
+    color: white;
+   
+  }
+  
+  #Aboutus-p2{
+    text-align: center;
+    color: white;
+   
+  }
+  
+  .Returns4 {
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .Returns4 p{
+  color: #ff523b;
+  }
+  
+  #Aboutus-p3{
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+  
+  }
+  .background{
+    background-color: #3d3a3a;
+  }
+
+  /* Add this style to your CSS file or in a style block in the head of your HTML document */
+.footer {
+    width: 100%;
+    padding: 20px; /* Adjust the padding as needed */
+  margin: 0 auto;
+}
+
+.footer .container {
+    max-width: 1200px; /* Set a maximum width if you want to limit the content width */
+    
+}
+
+.footer hr {
+    border: 1px solid #ddd; /* Style the horizontal line */
+    margin: 20px 0; /* Add some margin for spacing */
+}
+
+.container h2{
+    color: black;
+}
+
+.container p {
+    color: #ffffff;
+}
+
+.container h4{
+    color: #fff7f7;
+}
